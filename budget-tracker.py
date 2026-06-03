@@ -18,8 +18,8 @@ class BudgetTrackerApp:
         try:
             self.conn = mysql.connector.connect(
                 host="localhost",
-                user="lekha",          # Change if needed
-                password="Chandralekha@13",  # Change if needed
+                user="username",          # Change if needed
+                password="password",  # Change if needed
                 database="budget"
             )
 
